@@ -20,6 +20,7 @@ body {
 
 .game-board {
     border: 2px solid rgb(0, 23, 50);
+    position: relative;
 }
 
 h1 {
