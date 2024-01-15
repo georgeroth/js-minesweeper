@@ -1,4 +1,25 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Darker Grotesque';
+    color: rgb(0, 23, 50);
+    font-size: 40px;
+    background-color: rgb(216, 238, 232)
+}
+
+.game-container {
+    background-color: yellow;
+    width: 454px;
+}
+
+.game-panel {
+    background-color: blue;
+}
+
+.game-board {
+    border: 2px solid rgb(0, 23, 50);
 }
