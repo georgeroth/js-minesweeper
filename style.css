@@ -13,6 +13,7 @@ body {
 
 .game-container {
     width: 484px;
+    margin: 0 auto;
 }
 
 .game-panel {
