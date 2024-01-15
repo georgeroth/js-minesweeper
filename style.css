@@ -74,3 +74,11 @@ h1 {
     text-transform: uppercase;
     border: 2px solid rgb(0, 23, 50)
 }
+
+.btn:hover {
+    background-color: rgb(203, 224, 221)
+}
+
+.hidden {
+    display: none;
+}
