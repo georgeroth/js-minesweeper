@@ -1,5 +1,7 @@
-# refresher-intro
+# js-minesweeper
 
-A project following along Boolean's Coding Week to dust off my coding a bit. 
+A simple Minesweeper game using html, css and javascript.
+
+This is following along Boolean's Coding Week in order to dust off my coding skills a bit. 
 
 More info here: [https://boolean.co.uk/coding-week](https://boolean.co.uk/coding-week)
