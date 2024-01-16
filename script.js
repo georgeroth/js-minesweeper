@@ -19,7 +19,7 @@ const playAgainButton = document.querySelector('.play-again');
 
 // Building HTML from JavaScript
 
-for (i = 1; i = numberOfCells; i++) {
+for (let i = 0; i = numberOfCells; i++) {
     const cell = document.createElement('div');
     cell.classList.add('cell');
 }
