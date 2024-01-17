@@ -16,6 +16,11 @@ body {
     margin: 0 auto;
 }
 
+.main-padding {
+    width: 504px;
+    margin: 0 auto;
+}
+
 .game-panel {
 }
 
