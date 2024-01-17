@@ -28,8 +28,8 @@ h1 {
     font-size: 40px;
 }
 
-.score {
-    font-size: 32px;
+.counter {
+    font-size: 35px;
     display: flex;
     justify-content: space-between;
 }
@@ -44,6 +44,7 @@ h1 {
     width: 48px;
     height: 48px;
     cursor: pointer;
+    font-size: 33px;
 }
 
 .end-game-screen {
@@ -82,4 +83,13 @@ h1 {
 
 .hidden {
     display: none;
+}
+
+.cell-clicked {
+    background-color: rgb(157, 197, 199);
+    cursor: not-allowed;
+}
+
+.win {
+    background-color: rgba(78, 241, 187, 0.7);
 }

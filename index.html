@@ -16,7 +16,6 @@
     <!-- Stylesheet -->
     <link href="./style.css" rel="stylesheet" />
   
-
     <!-- Script -->
     <script type="text/javascript" src="script.js" defer></script>
 
@@ -25,9 +24,13 @@
     <div class="game-container">
         <header class="game-panel">
             <h1>Game Board</h1>
-            <div class="score-counter">
+            <div class="counter">
+              <span>BOMBS</span>
+              <span class="bombs-amount">00000</span>
+          </div>
+            <div class="counter">
                 <span>SCORE</span>
-                <span>00000</span>
+                <span class="score-amount">00000</span>
             </div>
         </header>
         <main class="game-board">
@@ -35,7 +38,7 @@
             <div class="grid">
             </div>
 
-            <div class="end-game-screen">
+            <div class="end-game-screen hidden">
                 <h2 class="end-game-text">Game<br />Over</h2>
                 <button class="btn play-again">Play again</button>
             </div>
